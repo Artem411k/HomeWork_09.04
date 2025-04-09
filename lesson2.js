@@ -2,18 +2,18 @@
 let a = 13;
 let b = 5;
 let remainder = a % b;
-console.log("Остаток от деления 13 на 5:", remainder);
+console.log("Остаток от деления 13 на 5:", remainder); // Вывод: 3
 
 // Задание 2: Что выведет на экран
-let a1; 
-alert(a1); 
+let a; // Объявляем переменную а
+alert(a); // Вывод: undefined
 
 // Задание 3: Что выведет на экран
-alert('abc' * 3); 
+alert('abc' * 3); // Вывод: NaN (Not a Number)
 
 // Задание 4: Что выведет на экран
-alert(1 / 0); 
-alert(-1 / 0); 
+alert(1 / 0); // Вывод: Infinity
+alert(-1 / 0); // Вывод: -Infinity
 
 // Задание 5: Что выведет на экран
-alert('2' * '3'); 
+alert('2' * '3'); // Вывод: 6
