@@ -48,3 +48,15 @@ console.log(`Разность чисел равна ${num1 - num2}`);
 console.log(`Произведение чисел равно ${num1 * num2}`);
 console.log(`Частное чисел равно ${num1 / num2}`);
 console.log(`Остаток от деления чисел равен ${num1 % num2}`);
+
+
+// Задание 7 
+let test = true;
+console.log(test === true ? '+++' : '---');
+
+// Задание 8
+let day = 15; // например, число от 1 до 31
+
+let decade = day <= 10 ? 'первая' : day <= 20 ? 'вторая' : 'третья';
+
+console.log(`Число ${day} попадает в ${decade} декаду месяца.`);
